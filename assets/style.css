@@ -1,0 +1,94 @@
+html, body, pre, code, kbd, samp {
+  font-family: "Press Start 2P";
+}
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100%;
+  flex-flow: column;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 20px solid rgb(114, 42, 102);
+}
+
+/* Set the navbar container to full width */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #710b7a;
+  height: 90px;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(58, 36, 153, 0.904);
+}
+
+/* Set the logo or brand name */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+/* Set the navigation links */
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+/* Style the individual links */
+.navbar-nav li {
+  margin: 0 10px;
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+  color: #666;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  color: white;
+}
+
+.info div {
+  background-color: #3a46ad;
+  padding: 10px;
+}
+
+.soal {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.soal img {
+  width: 700px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  align-content: center;
+}
+
+.nes-input {
+  border-image-repeat: stretch;
+}

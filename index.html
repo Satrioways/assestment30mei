@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tebak Gambar</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+  <link rel="stylesheet" href="assets/nes.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+      <nav class="navbar">
+        <a class="navbar-brand" href="#">Tebak Gambar</a>
+        <ul class="navbar-nav">
+          <li><a href="#" class="nes-btn is-primary">Home</a></li>
+          <li><a href="#" class="nes-btn is-primary">Start</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="bg"></div>
+    <div class="container">
+      <div class="info">
+        <div href="#" class="nes-badge is-splited">
+          <span class="is-dark"><i class="nes-icon trophy"></i></span>
+          <span class="is-primary" id="score">0</span>
+        </div>
+        <div href="#" class="nes-badge is-splited">
+          <span class="is-dark">Waktu</span>
+          <span class="is-primary" id="countdown">-</span>
+        </div>
+      </div>
+
+      <div class="soal">
+        <img id="gambar" src="" alt="">
+        <div class="input-container" id="jawaban">
+          <input type="text" id="name_field" placeholder="Jawab Disini" class="nes-input">
+          <button class="nes-btn" id="cek">Jawab</button>
+        </div>
+      </div>
+    </div>
+
+    <dialog class="nes-dialog is-rounded" id="dialog-dark">
+      <form method="dialog">
+        <p class="title" id="result-dialog">Jawaban Benar</p>
+        <menu class="dialog-menu">
+          <button class="nes-btn is-primary">Ok</button>
+        </menu>
+      </form>
+    </dialog>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
